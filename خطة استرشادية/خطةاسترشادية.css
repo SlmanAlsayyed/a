@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+
+}
+body{
+  font-family: 'Kufam', sans-serif;
+}
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+.navbar{
+    background-image: linear-gradient(to right,#a054e3,#2a28b6d5);
+
+  padding: 0 !important;
+}
+.navbar-brand{
+height: auto;
+padding-left: 20px;
+}
+.navbar-nav li{
+padding:  0 10px;
+
+
+}
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight:600 ;
+  float:right ;
+  text-align: left;
+  font-family: 'Kufam', sans-serif;
+
+
+
+}
+.navbar-nav li a:hover{
+  border-bottom: 2px solid white;
+  font-family: 'Kufam', sans-serif;
+
+}
+.fa-bars{
+  color: #fff;
+  font-size: 30px !important;
+  font-family: 'Kufam', sans-serif;
+
+}
+.navbar-toggler{
+  outline: none !important;
+}
+
+/*-========================================================*/
+#banner{
+    background-image: linear-gradient(to right,#a054e3,#2a28b6d5);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: #fff;
+padding-top: 2%;
+
+}
+.promo-title{
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: 'Kufam', sans-serif;
+
+  text-align: center;
+
+}
+.play-btn{
+  width: 45px;
+  margin: 20px;
+
+}
+#banner a{
+  color: #fff;
+  text-decoration: none;
+}
+.bottom-img{
+  width: 100%;
+}
+
+/*==================================================================*/
+#services{
+    padding: 80px 0;
+  
+  }
+  .service-img{
+    width: 300px;
+    margin-top: 20px;
+    transition: 0.5s;
+    font-family: 'Kufam', sans-serif;
+
+  
+  }
+  .service-img:hover{
+    transform: translateY(-10px );
+    font-family: 'Kufam', sans-serif;
+
+  }
+  .services{
+    padding: 20px;
+  
+  }
+  
+  .services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Kufam', sans-serif;
+
+  }
+  .services p{
+    font-family: 'Kufam', sans-serif;
+
+  }
+  .title{
+    font-family: 'Kufam', sans-serif;
+
+  }
+  .title::before{
+    content: '';
+    background:#201782;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
+  }
+  .title::after{
+    content: '';
+    background:#201782;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+  }
+  #services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#1755ba,#201782);
+  
+  }
+  /*================================*/
+  
+  
+  /*=======================================*/
+
+  #social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+   }
+
+   #social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+   }
+   .social-icons img{
+    width: 60px;
+    transition: 0.5s;
+   }
+   .social-icons a:hover img{
+    transform: translateY(-10px );
+   }
+   /*========================================*/
+    
+   /*========================================*/
+    
+   #footer{
+    background-image: linear-gradient(to right,#a054e3,#2a28b6d5);
+   
+    background-repeat: no-repeat;
+  background-size: cover;
+    color: #fff;
+
+   }
+   .footer-img{
+    width: 100%;
+   }
+   .footer-box{
+    padding: 10px;
+   }
+   .footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+    
+   }
+   @media (max-width:600px) {
+    .img99{
+      width: 300px;
+    }
+    
+   }
